@@ -5,9 +5,6 @@ const dataSymbols = "$&é'-è_\"()çà";
 const passwordlength = document.getElementById("display-password-length").value;
 const passwordOutput = document.getElementById("password-output");
 
-// console.log(passwordlength);
-// console.log(document.getElementById("display-password-length"));
-
 const generatePassword = () => {
     let data = [];
     let password = "";
