@@ -140,6 +140,9 @@ let numberString = "42.23 est un chiffre";
 
 // console.log(Math.floor(Math.random() * 50));
 
+
+
+
 // ----------------
 // Méthodes Arrays
 // ----------------
@@ -191,6 +194,10 @@ let arrayNumber = [4, 24, 35, 46, 57];
 // document.body.innerHTML = arrayNumber
 // 	.map((number) => `<li> ${number} </li>`)
 // 	.join("");
+
+
+
+
 
 // ----------------
 // Méthodes Objects

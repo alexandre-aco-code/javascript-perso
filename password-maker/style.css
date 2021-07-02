@@ -76,7 +76,7 @@ input[type="range"]::-webkit-slider-thumb:active {
   align-items: center;
 }
 input[type="checkbox"] {
-  display: none;
+  /* display: none; */
 }
 input[type="checkbox"]:checked + label {
   transform: scale(1.3);
