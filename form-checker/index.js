@@ -115,7 +115,16 @@ form.addEventListener('submit', (e) => {
             email,
             password,
         }
-        console.log(data); 
+        console.log(data);
+
+        inputs.forEach((input) => input.value = "");
+        progressBar.classList = "";
+
+        pseudo = null;
+        email = null;
+        password = null;
+        confirmPass = null;
+        alert("inscription validée!")
     } else {
         alert('veuillez remplir correctement les champs');
     }
